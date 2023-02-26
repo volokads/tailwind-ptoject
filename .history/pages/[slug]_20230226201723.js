@@ -44,7 +44,6 @@ export default function Details(){
 
     useEffect(()=>{
         if(!router.isReady)return
-        console.log('run');
         getComments()
     },[router.isReady])
     return(
